@@ -10,7 +10,7 @@ Installation
 :
 1) Download the plugin
 2) Extract the zip file.
-3) Rename "SteveLee-WebfontsDrupalJsonWithoutEditor-a82379d" folder with "webfontsdrupalJsonwithouteditor"
+3) Rename "SteveLee-WebfontsDrupalJsonWithoutEditor-a82379d" folder with "webfontsdrupaljsonwithouteditor"
 2) Copy the newly renamed "webfontsdrupalJsonwithouteditor" module folder under "drupal\modules" directory.
 2) Login as administrator
 3) Go to "Administer"=>"Site building" => "Modules"
