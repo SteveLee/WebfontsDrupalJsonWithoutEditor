@@ -2034,14 +2034,14 @@ function webfonts_domains_list($domain_name,$projectId){
 						$domainID = $domains['DomainID'];
 						$rows[] = array(
 						'name' => '<a href="http://'.$domainName.'" target="_blank">'.check_plain($domainName).'</a>',
-						'action' => l(t('Edit'), "admin/settings/webfonts/domainedit/".$domainID."/".$projectId."/".$domainName)." ".l(t('Remove'), "admin/settings/webfonts/domaindelete/".$domainID."/".$projectId."/".$domainName),);
+						'action' => l(t('Edit'), "admin/settings/webfonts/domainedit/".$domainID."/".$projectId."/".$domainName)." | ".l(t('Remove'), "admin/settings/webfonts/domaindelete/".$domainID."/".$projectId."/".$domainName),);
 					}else{
 						foreach( $domains as $domain ){
 							$domainName = $domain['DomainName'];
 							$domainID = $domain['DomainID'];
 							$rows[] = array(
 							'name' => '<a href="http://'.$domainName.'" target="_blank">'.check_plain($domainName).'</a>',
-							'action' => l(t('Edit'), "admin/settings/webfonts/domainedit/".$domainID."/".$projectId."/".$domainName)." ".l(t('Remove'), "admin/settings/webfonts/domaindelete/".$domainID."/".$projectId."/".$domainName),);
+							'action' => l(t('Edit'), "admin/settings/webfonts/domainedit/".$domainID."/".$projectId."/".$domainName)." | ".l(t('Remove'), "admin/settings/webfonts/domaindelete/".$domainID."/".$projectId."/".$domainName),);
 							}//end of foreach
 				}//end of else for is_multi
 				$contentexists = 1;
